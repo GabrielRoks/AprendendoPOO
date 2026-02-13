@@ -5,6 +5,7 @@
         public static void Main()
         {
             var random = new Random();
+            string[] opcoes = new[] { "Pedra", "Papel", "Tesoura" };
 
             while (true)
             {
@@ -30,8 +31,8 @@
 
                     int gon = random.Next(1, 4);
 
-                    Console.WriteLine($"Você escolheu: {(suaEscolha)}");
-                    Console.WriteLine($"Gon escolheu: {(gon)}");
+                    Console.WriteLine($"Você escolheu: {opcoes[suaEscolha - 1]}");
+                    Console.WriteLine($"Gon escolheu: {opcoes[gon - 1]}");
 
                     if (suaEscolha == gon)
                     {

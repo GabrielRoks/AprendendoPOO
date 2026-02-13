@@ -1,0 +1,3 @@
+﻿using JoKenPoRefeito;
+
+Main.game();
