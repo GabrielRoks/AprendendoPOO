@@ -25,7 +25,7 @@
                         var input = Console.ReadLine();
                         if (int.TryParse(input, out suaEscolha) && suaEscolha >= 1 && suaEscolha <= 3)
                             break;
-                        Console.WriteLine("Entrada inválida. Digite 1, 2 ou 3.");
+                        Console.WriteLine("Entrada inválida. Digite 1, 2 ou 3. ");
                     }
 
                     int gon = random.Next(1, 4);
