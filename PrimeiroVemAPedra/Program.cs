@@ -1,0 +1,3 @@
+﻿using PrimeiroVemAPedra;
+
+Jajanken.Main();
