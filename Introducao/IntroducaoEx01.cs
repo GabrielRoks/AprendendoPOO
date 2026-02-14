@@ -21,8 +21,6 @@
             
             else
                 Console.WriteLine("Maior de idade.");
-                Console.Write("Pressione uma tecla para continuar...");
-                Console.ReadKey();
         }
     }
 }
